@@ -1,0 +1,145 @@
+* {
+    background-color: black;
+    font-family: ;
+    color: white;
+}
+
+.header {
+    display: grid;
+    grid-template-areas: "header sidebar";
+    grid-auto-columns: 300px auto;
+    height: 60%
+    /* display: flex;
+    align-items: center;
+    gap: 400px; */
+}
+
+.logo {
+    margin-left: 100px;
+    grid-area: header;
+}
+
+.navbar {
+    grid-area: sidebar;
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.hero {
+    /* background-image: url('./imagee_homework/theater-image-background.png'); */
+    /* height: auto; */
+    position: relative;
+    color: white;
+    text-align: center;
+    width: 100vw;
+    /* display: grid;
+    align-items: stretch; */
+}
+
+img {
+    height: 50%;
+    width: 100%;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    font-size: 100px;
+    background-color: transparent;
+}
+
+.body {
+    background-color: white;
+    padding-top: 80px;
+}
+
+.raising {
+    height: 20%;
+    width: 20%;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 10px;
+    gap: 20px;
+}
+
+.content {
+    display: flex;
+    padding: 15px;
+    flex-direction: column;
+    background-color: transparent;
+}
+
+.time {
+    background-color: rgb(193, 193, 193);
+    height: 20px;
+    border: solid 2px rgb(156, 153, 153);
+    width: 57%;
+    /* margin-top: 90px; */
+    margin-bottom: 40px;
+    padding-left: 40px;
+    margin-left: 250px;
+}
+
+.text {
+    background-color: rgb(193, 193, 193);
+}
+
+hr {
+    width: 60%;
+}
+
+button {
+    height: 50px;
+    background-color: rgb(233, 195, 61);
+    
+}
+
+button:hover {
+    background-color: rgb(241, 220, 141);
+}
+
+p { 
+    color: black;
+    background-color: transparent;
+}
+
+h3 {
+    color: black;
+    background-color: transparent;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    padding: 25px;
+    align-items: center;
+}
+
+.chicago {
+    width: 40%;
+    height: 60%;
+    margin-left: 20px;
+}
+
+h5 {
+    font-weight: normal;
+}
+
+.tag {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.icon {
+    width: 10%
+}
