@@ -67,11 +67,10 @@ img {
 
 .card {
     display: flex;
-    justify-content: center;
     align-items: center;
     background-color: white;
     padding: 10px;
-    gap: 20px;
+    gap: 80px;
 }
 
 .content {
@@ -125,13 +124,14 @@ h3 {
     display: grid;
     grid-template-columns: repeat(4, 25%);
     padding: 25px;
-    align-items: center;
+    align-items: start;
 }
 
 .chicago {
     width: 40%;
     height: 60%;
     margin-left: 20px;
+    align-self: center;
 }
 
 h5 {
@@ -146,4 +146,37 @@ h5 {
 
 .icon {
     width: 10%
+}
+
+@media screen and (max-width: 700px){
+    .header {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .logo {
+        margin-left: 0;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .card {
+        gap: 10px;
+    }
+
+    .centered {
+        font-size: 40px;
+        left: 20%;
+    }
+
+    .footer {
+        font-size: smaller;
+        column-gap: 10px;
+    }
+
+    .chicago {
+        margin-top: 50%;
+    }
 }
